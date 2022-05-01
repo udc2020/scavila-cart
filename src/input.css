@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+   p,a,h3,input{
+      @apply text-primary font-radio;
+   }
+
+}
+
+
+.icon-menu{
+   @apply h-6 w-6  fill-primary/60 rounded-full hover:bg-white hover:fill-primary hover:scale-125 ;
+}
+
+
+.link-hover{
+   @apply hover:text-blue-500
+}
+
+
+@layer components{
+   .hart-hover{
+      @apply hover:bg-hart;
+   }
+}
